@@ -6,7 +6,11 @@ public class Carte {
 	/** nombre de tete de boeuf sur la carte */
 	private int nbTete;
 
-
+	/** Constructeur initialise une carte avec un numero et un nombre de tete de
+	 * boeuf
+	 * @param numero le numero de la carte
+	 * @param nbTete le nombre de tete de boeuf de la carte
+	 */
 	public Carte(int numero, int nbTete) {
 		this.numero = numero;
 		this.nbTete = nbTete;

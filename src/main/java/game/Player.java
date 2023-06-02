@@ -100,7 +100,7 @@ public class Player {
 	}
 
 	/** Pose une carte sur le plateau
-	 * @param le plateau
+	 * @param  plateau
 	 */
 	public void jouer(Plateau plateau) {
 		Scanner sc = new Scanner(System.in);

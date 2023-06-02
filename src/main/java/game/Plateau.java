@@ -57,7 +57,7 @@ public class Plateau {
 	public String toString() {
 		String affichage = "";
 		for (int j = 0; j < 4; ++j) {
-			affichage += "- série n° " + (j + 1) + " : ";
+			affichage += "- serie n " + (j + 1) + " : ";
 			for (int i = 0; i < (this.nbCarte(j)); ++i) {
 				if (i == 0)
 					affichage += plateau[j][i].toString();
